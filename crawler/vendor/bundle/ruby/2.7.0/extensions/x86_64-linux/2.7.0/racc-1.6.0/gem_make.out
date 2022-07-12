@@ -1,0 +1,17 @@
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+/home/rafaela/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/rafaela/.rvm/rubies/ruby-2.7.1/lib/ruby/site_ruby/2.7.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-52op7z sitelibdir\=./.gem.20220711-21153-52op7z clean
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-52op7z sitelibdir\=./.gem.20220711-21153-52op7z
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-52op7z sitelibdir\=./.gem.20220711-21153-52op7z install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20220711-21153-52op7z/racc

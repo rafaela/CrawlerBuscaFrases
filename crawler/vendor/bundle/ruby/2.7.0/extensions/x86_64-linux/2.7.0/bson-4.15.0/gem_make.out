@@ -1,0 +1,21 @@
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/bson-4.15.0/ext/bson
+/home/rafaela/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/rafaela/.rvm/rubies/ruby-2.7.1/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/bson-4.15.0/ext/bson
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-1jl03bw sitelibdir\=./.gem.20220711-21153-1jl03bw clean
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/bson-4.15.0/ext/bson
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-1jl03bw sitelibdir\=./.gem.20220711-21153-1jl03bw
+compiling bytebuf.c
+compiling endian.c
+compiling init.c
+compiling libbson-utf8.c
+compiling read.c
+compiling util.c
+compiling write.c
+linking shared-object bson_native.so
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/bson-4.15.0/ext/bson
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-1jl03bw sitelibdir\=./.gem.20220711-21153-1jl03bw install
+/usr/bin/install -c -m 0755 bson_native.so ./.gem.20220711-21153-1jl03bw

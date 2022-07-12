@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+  - jruby-19mode
+  - rbx-19mode
+  - 2.0.0
+  - 2.2.2
+services:
+  - redis-server
+branches:
+  only:
+    - master
+notifications:
+  email:
+    recipients:
+      - ondrej@bartas.cz
+env:
+  travis: 'yes'
+matrix:
+  allow_failures:
+    - rvm: jruby-19mode
+    - rvm: rbx-19mode

@@ -1,0 +1,15 @@
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/rafaela/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/rafaela/.rvm/rubies/ruby-2.7.1/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-fci1fc sitelibdir\=./.gem.20220711-21153-fci1fc clean
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-fci1fc sitelibdir\=./.gem.20220711-21153-fci1fc
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/rafaela/Downloads/crawler/crawler/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20220711-21153-fci1fc sitelibdir\=./.gem.20220711-21153-fci1fc install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20220711-21153-fci1fc
