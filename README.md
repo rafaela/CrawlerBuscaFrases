@@ -11,7 +11,7 @@ O Crawler Busca Frases é uma api que busca citações de diversos autores no si
 * API protegida por TOKEN
 
 ## Desenvolvimento da aplicação
-O site citado acima, possui uma série de citações e em cada citação possui uma frase, um autor, um link contendo informações sobre o autor e uma lista de tags que identifica o assunto da citação. Pensando nisso, criei duas classes. Tag e Quote. A classe Tag fica responsável de salvar,sem repetição, cada tag presente no site. Já a classe Quote fica responsável em salvar, sem repetição, a citação, o autor, o link sobre o autor e as tags.
+O site acima, possui uma série de citações e em cada citação possui uma frase, um autor, um link contendo informações sobre o autor e uma lista de tags que identifica o assunto da citação. Pensando nisso, criei duas classes. Tag e Quote. A classe Tag fica responsável de salvar,sem repetição, cada tag presente no site. Já a classe Quote fica responsável em salvar, sem repetição, a citação, o autor, o link sobre o autor e as tags.
 
 Para obter os dados do site, utilizei a API Nokogiri. Através dessa API é possível acessar o código HTML do site e obter as informações. E para salvar as informações obtidas, utilizei o banco de dados MongoDB.
 
